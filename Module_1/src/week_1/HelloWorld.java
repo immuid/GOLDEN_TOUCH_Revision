@@ -1,5 +1,5 @@
 package week_1;
-
+//verified in GitHub
 import java.util.Scanner;
 
 public class HelloWorld {
