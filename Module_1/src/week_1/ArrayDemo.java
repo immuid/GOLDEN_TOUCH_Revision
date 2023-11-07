@@ -1,5 +1,5 @@
 package week_1;
-
+//verified in GitHub
 public class ArrayDemo {
 	
 	int i=10; // we can only instantiate variables inside the class 
