@@ -36,7 +36,10 @@ public class School {
 		 
 		 int donate=school.askDonation();
 		 
+		Human immu=new Human(); //object created with reference
+		immu.smile(); // object behavior is called using object reference name
 		
+		new Human().smile();
 		 
 		 System.out.println("school fees_change : "+fee_change);
 		 System.out.println("school Donates : "+donate);
@@ -44,3 +47,9 @@ public class School {
 	}
 
 }
+ class Human{
+	 
+	 void smile() {
+		 System.out.println("Smiling is a noble act...eeee");
+	 }
+ }
