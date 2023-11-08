@@ -12,6 +12,12 @@ public class UnevenArrays {
 			{4,5,7,6},
 	};
 	
+	int unevenarray[][]=new int[3][];//mentioning the row but not the columns 
+		
+	void unevenArray() {
+		
+		
+	}
 	void multiArray() {
 		System.out.println("Values in uneven array : \n");
 		for(int i=0;i<multiarray.length;i++) {
