@@ -41,7 +41,8 @@ public class School {
 		
 		new Human().smile();
 		 
-		 System.out.println("school fees_change : "+fee_change);
+//		 System.out.println("school fees_change : "+fee_change);
+		System.out.println("school fees_change : "+school.fee(400));
 		 System.out.println("school Donates : "+donate);
 //		 school.admission();
 	}
