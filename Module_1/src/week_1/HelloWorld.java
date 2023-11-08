@@ -1,5 +1,24 @@
 package week_1;
 //verified in GitHub
+
+/*comments in java 
+ * there are 3 types of comments in java 
+ * 	1.SingleLine comment
+ * 	2.Multiple Line comment
+ * 	3.Documentary comment
+ */
+
+// Single Line Comment
+
+/*
+ * Multiple Line Comment
+ */
+
+/** Documentary Comment
+ * @author imran ahmed M
+ * 
+ */
+
 import java.util.Scanner;
 
 public class HelloWorld {
