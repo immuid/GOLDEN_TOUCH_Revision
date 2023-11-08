@@ -1,4 +1,4 @@
-package week_1;
+package arrays;
 
 public class TwoDimensionalArray {
 		int Array2D_v1[][]= {  //two dimensional array with 2 rows and 4 columns

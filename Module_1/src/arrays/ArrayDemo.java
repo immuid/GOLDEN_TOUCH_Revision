@@ -1,4 +1,4 @@
-package week_1;
+package arrays;
 //verified in GitHub
 public class ArrayDemo {
 	
