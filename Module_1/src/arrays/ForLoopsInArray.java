@@ -21,14 +21,6 @@ public class ForLoopsInArray {
 							{6,7,8,9,0},
 							{5,4,3,2,1},
 							};
-	
-	int numbersArrays_V1[]=new int[7];
-	int number2DArray_V1[][]=new int[3][];
-	
-	void arraysCreation() {
-		number2DArray_V1[0]=new int[4];
-	}
-
 	//Method
 	void normalForLoop() { //classic old normal for loop 
 		System.out.println("looped Single Dimensional array using normal for loop :-> \n");
@@ -37,6 +29,7 @@ public class ForLoopsInArray {
 			System.out.print(numbersArray[i] + "  ");
 		}
 		System.out.println("\n");
+		
 		System.out.println("looped Two Dimensional array using normal for loop :-> \n");
 		
 		for(int i=0;i<number2DArray.length;i++) {
@@ -71,6 +64,7 @@ public class ForLoopsInArray {
 		
 		arrays.normalForLoop();
 		
-		arrays.advancedForLoop();		
+		arrays.advancedForLoop();	
+		
 	}
 }
