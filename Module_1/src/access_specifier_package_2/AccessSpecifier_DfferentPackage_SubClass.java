@@ -1,8 +1,8 @@
-package access_specifier.package_2;
+package access_specifier_package_2;
 
-import access_specifier.package_1.AccessSpecifier;
+import access_specifier_package_1.AccessSpecifier;
 
-public class AccessSpecifier_DfferentPackage_SubClass extends access_specifier.package_1.AccessSpecifier{
+public class AccessSpecifier_DfferentPackage_SubClass extends access_specifier_package_1.AccessSpecifier{
 	
 	void accessTest() { 
 		System.out.println(private_variable);  //class scope -> accessible (visible) only in same class

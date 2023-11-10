@@ -1,4 +1,4 @@
-package access_specifier.package_1;
+package access_specifier_package_1;
 
 public class AccessSpecifier {
 	//variable declaration 
