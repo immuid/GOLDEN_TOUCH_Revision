@@ -39,4 +39,30 @@ public class If_Else_Demo {
 		}		
 		return result;
 	}
+	
+	String ifElseDemo2(int i) {
+		String result = null;
+		if(i<10 || i>20) {
+			result=" Value of i is lesser than 10 ... or greater than 20 ... ";
+			System.out.println(result);
+		}
+		else {  // this condition is not executed when the first condition is satisfied ...
+			result=" Value of i is greater than 10 ... and lesser than 20 ";
+			System.out.println(result);
+		}		
+		return result;
+	}
+	
+	String ifElseDemo3(int i) {
+		String result = null;
+		if(i%2==0 && i>20) {
+			result=" Value of i is greater than 20 ... and divisible by 2 ";
+			System.out.println(result);
+		}
+		else {  // this condition is not executed when the first condition is satisfied ...
+			result=" Value of i is either lesser than 20 ... or divisible by 2 ";
+			System.out.println(result);
+		}		
+		return result;
+	}
 }
