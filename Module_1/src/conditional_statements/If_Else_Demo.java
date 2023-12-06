@@ -5,12 +5,16 @@ public class If_Else_Demo {
 		int i= 15;
 		int j= 16;
 		int k= 10;
+		int l= 22;
 		
 		If_Else_Demo If_Else_Demo=new If_Else_Demo();
 		If_Else_Demo.ifElseDemo(i);
 		If_Else_Demo.ifElseDemo(j);
 		
 		If_Else_Demo.ifElseDemo1(k);
+		If_Else_Demo.ifElseORDemo2(i);
+		If_Else_Demo.ifElseANDDemo3(l);
+		
 	}
 		
 		
@@ -40,7 +44,7 @@ public class If_Else_Demo {
 		return result;
 	}
 	
-	String ifElseDemo2(int i) {
+	String ifElseORDemo2(int i) {
 		String result = null;
 		if(i<10 || i>20) {
 			result=" Value of i is lesser than 10 ... or greater than 20 ... ";
@@ -53,7 +57,7 @@ public class If_Else_Demo {
 		return result;
 	}
 	
-	String ifElseDemo3(int i) {
+	String ifElseANDDemo3(int i) {
 		String result = null;
 		if(i%2==0 && i>20) {
 			result=" Value of i is greater than 20 ... and divisible by 2 ";
