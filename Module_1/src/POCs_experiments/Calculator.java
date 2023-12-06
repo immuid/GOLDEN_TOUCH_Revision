@@ -1,4 +1,4 @@
-package experiments;
+package POCs_experiments;
 
 import java.util.Scanner;
 
