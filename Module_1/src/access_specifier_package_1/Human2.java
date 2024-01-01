@@ -1,6 +1,6 @@
 package access_specifier_package_1;
 
-import POCs.Human3;
+import access_specifier_package_2.Human3;
 
 public class Human2 {
 	public static void main(String[] args) {
