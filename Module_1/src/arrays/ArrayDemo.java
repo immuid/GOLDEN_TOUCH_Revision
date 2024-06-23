@@ -28,7 +28,7 @@ public class ArrayDemo {
 		System.out.println(" Marks in the Array : \n");
 		
 		for(int i=0;i<mark.length;i++) {
-			System.out.println("Mark in array["+i+"] = "+array[i]);
+			System.out.println("Mark in array["+i+"] = "+mark[i]);
 		}
 	}
 	

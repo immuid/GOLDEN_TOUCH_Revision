@@ -9,11 +9,18 @@ public class Demo1 {
 		int num = scan.nextInt();
 		System.out.println("Enter another number : ");
 		int num2 = scan.nextInt();
-		System.out.println(
-				"Select which opertion to perform : \n 1.For adding two numbers \n 2.For mu,tiplying two numbers  ");
-		int option = scan.nextInt();
-
-		int result = (option == 1) ? (num + num2) : (num * num2);
-		System.out.println("The result for the selected option is : " + result);
+		System.out.println("Select which opertion to perform : \n + \n - \n * \n / ");
+		String option = scan.next();
+		int result = 0;
+		if(option .equalsIgnoreCase("+") ||option .equalsIgnoreCase("-")) {
+			result = (option .equalsIgnoreCase("+")) ? (num + num2) : (num - num2);
+			System.out.println("The result for the selected option is : " + result);
+		}else if(option .equalsIgnoreCase("*") ||option .equalsIgnoreCase("/")) {
+			result = (option .equalsIgnoreCase("*")) ? (num * num2) : (num / num2);
+			System.out.println("The result for the selected option is : " + result);
+		}else {
+			System.out.println("Invalid operator selected .....");
+		}
+		
 	}
 }

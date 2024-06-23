@@ -29,7 +29,7 @@ public class UnevenArrays {
 		unevenarray_V2[0][4]=04;
 //		unevenarray_V2[0][5]=0; // throws array index out of bond exception..
 		
-		System.out.println("\n Values in uneven array : \n");
+		System.out.println("\nValues in uneven array : \n");
 		for(int i=0;i<unevenarray_V2.length;i++) {
 			
 			for(int k=0;k<unevenarray_V2[i].length;k++) {
