@@ -1,5 +1,9 @@
 package conditional_statements;
-
+/**
+ * This has a exampel
+ * when we enter a number first
+ * and if the second number is not odd number then the loop will not stop
+ */
 import java.util.Scanner;
 
 public class Demo3 {

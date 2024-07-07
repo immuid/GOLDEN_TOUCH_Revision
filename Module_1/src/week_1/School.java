@@ -1,5 +1,9 @@
 package week_1;
-
+/**
+ * This class covers the concepts of Classes and Objects..
+ * Using school and fee example..
+ * 
+ */
 public class School {
 	
 	void admission() { //method without parameter and return type

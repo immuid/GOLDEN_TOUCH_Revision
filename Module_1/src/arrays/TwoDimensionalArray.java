@@ -1,5 +1,11 @@
 package arrays;
-
+/**
+ * This class covers the concepts of
+ * Array
+ * Two Dimensional Array
+ * ForLoop (Normal)
+ * ForLoop or ForEachLoop (Advanced)
+ */
 public class TwoDimensionalArray {
 		int Array2D_v1[][]= {  //two dimensional array with 2 rows and 4 columns
 				{10,20,30,40},

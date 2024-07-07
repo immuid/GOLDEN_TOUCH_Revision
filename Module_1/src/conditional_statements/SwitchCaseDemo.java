@@ -1,5 +1,9 @@
 package conditional_statements;
-
+/**
+ * This class covers the concepts of 
+ * Conditional Statement operator which is
+ * Switch Case Operator
+ */
 import java.util.Scanner;
 
 public class SwitchCaseDemo {

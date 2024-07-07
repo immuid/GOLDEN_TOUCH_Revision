@@ -1,7 +1,9 @@
 package constructors;
 
 /**
- * Constructor Overloading concept
+ * This class covers the concept of
+ * Constructor Overloading
+ * Polymorphism
  */
 public class ConstructorPolymorpism {
 	public ConstructorPolymorpism() {

@@ -1,5 +1,11 @@
 package arrays;
-
+/**
+ * This class covers the concepts of
+ * Array
+ * Two Dimensional Array
+ * ForLoop (Normal)
+ * ForLoop or ForEachLoop (Advanced)
+ */
 public class MyTwoDimensionalArray {
 
 //	Two Dimensional array initialization

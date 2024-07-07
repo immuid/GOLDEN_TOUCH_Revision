@@ -1,5 +1,9 @@
 package polymorphism;
-
+/**
+ * The below example is using Object oriented programming
+ * Polymorphism
+ * Variable Arguments
+ */
 public class MethodPolymorphism {
 	
 	void met(){

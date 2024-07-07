@@ -1,5 +1,11 @@
 package arrays;
-
+/**
+ * This class covers the concepts of
+ * Array
+ * Single Dimensional Array
+ * ForLoop (Normal)
+ * ForLoop or ForEachLoop (Advanced)
+ */
 public class MySingleDimensionalArrays {
 
 //	Single Dimensional array initialization

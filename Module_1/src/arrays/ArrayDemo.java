@@ -1,4 +1,10 @@
 package arrays;
+/**
+ * This class covers the concepts of
+ * Array
+ * Single Dimensional Array
+ * ForLoop (Normal)
+ */
 //verified in GitHub
 public class ArrayDemo {
 	

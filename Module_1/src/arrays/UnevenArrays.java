@@ -1,9 +1,11 @@
 package arrays;
-/*
- * there are three types in arrays
+/**
+ * There are three types in arrays
  * 	1. Single dimensional array
  *  2. Two dimensional array
- *  3. Uneven Array or Multi dimensional array 
+ *  3. Uneven Array or MultiDimensional array 
+ *  4. ForLoop (Normal)
+ *  5. ForLoop or ForEachLoop (Advanced)
  */
 public class UnevenArrays {
 	

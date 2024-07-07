@@ -1,5 +1,10 @@
 package conditional_statements;
-
+/**
+ * This class has the concept of
+ * If condition
+ * If Else If condition
+ * Using a concept of checking the i value ..
+ */
 public class If_Else_Demo {
 	public static void main(String[] args) {
 		int i= 15;
@@ -25,7 +30,7 @@ public class If_Else_Demo {
 		
 	String ifElseDemo(int i) {
 		String result;
-		System.out.println("This method checks the i value is to 15 or not ...");
+		System.out.println("This method checks the i value is 15 or not ...");
 		if(i==15) {
 			result=" Value of i is equal to 15 ... \n";
 			System.out.println(result);

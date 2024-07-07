@@ -1,5 +1,5 @@
 package variable_scope;
-/*
+/**
  * Types of Variable and its Scope
  * 	1.Class Variable - are Static Variable
  * 	2.Instance Variable

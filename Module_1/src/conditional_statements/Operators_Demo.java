@@ -1,8 +1,15 @@
 package conditional_statements;
-
+/**
+ * This class covers the concepts of 
+ * Operators such as
+ * Addition
+ * Subtraction
+ * Multiplication
+ * Division
+ */
 import java.util.Scanner;
 
-public class Demo1 {
+public class Operators_Demo {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number : ");

@@ -1,5 +1,5 @@
 package arrays;
-/*
+/**
  * For Loops in Java 
  * 
  * There are 2 types of for loops in java 

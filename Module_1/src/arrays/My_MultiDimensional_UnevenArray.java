@@ -1,5 +1,11 @@
 package arrays;
-
+/**
+ * This class covers the concepts of
+ * Array
+ * MultiDimensional Array or Uneven Array
+ * ForLoop (Normal)
+ * ForLoop or ForEachLoop (Advanced)
+ */
 public class My_MultiDimensional_UnevenArray {
 
 //	Two Dimensional array initialization

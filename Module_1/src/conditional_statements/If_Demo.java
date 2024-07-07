@@ -1,5 +1,7 @@
 package conditional_statements;
-
+/**
+ * This class has the concept of If condition
+ */
 import java.util.Scanner;
 
 public class If_Demo {

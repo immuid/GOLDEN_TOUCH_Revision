@@ -1,8 +1,11 @@
 package conditional_statements;
-
+/**
+ * This class covers the concpets of
+ * Iterations using ForLoop
+ */
 import java.util.Scanner;
 
-public class Demo2 {
+public class Iteration_Using_ForLoop {
 	public static void main(String[] args) {
 		Scanner scan =new Scanner(System.in);
 		System.out.println("Enter the Number of iterations : ");
