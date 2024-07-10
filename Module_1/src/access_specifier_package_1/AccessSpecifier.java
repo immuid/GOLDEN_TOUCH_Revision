@@ -19,7 +19,7 @@ public class AccessSpecifier {
 class AccessSpecifier_SubClass extends AccessSpecifier{
 	
 	void accessTest() {
-		System.out.println(private_variable);
+//		System.out.println(private_variable); //The field AccessSpecifier.private_variable is not visible
 		System.out.println(protected_variable);
 		System.out.println(nomodifier_variable);
 	    System.out.println(public_variable);
@@ -31,7 +31,7 @@ class AccessSpecifier_NonSubClass{
 	
 	AccessSpecifier access=new AccessSpecifier();
 	void accessTest() {
-		System.out.println(access.private_variable);
+//		System.out.println(access.private_variable); //The field AccessSpecifier.private_variable is not visible
 		System.out.println(access.protected_variable);
 		System.out.println(access.nomodifier_variable);
 	    System.out.println(access.public_variable);
