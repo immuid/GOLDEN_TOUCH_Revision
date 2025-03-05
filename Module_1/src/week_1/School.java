@@ -2,9 +2,9 @@ package week_1;
 /**
  * This class covers the concepts of Classes and Objects..
  * Using school and fee example..
- * 
+ * @author imranahmedm
  */
-public class School {
+/*public class School {
 	
 	void admission() { //method without parameter and return type
 		System.out.println("admission done...");
@@ -57,4 +57,27 @@ public class School {
 	 void smile() {
 		 System.out.println("Smiling is a noble act...eeee");
 	 }
- }
+ }*/
+
+public class School{
+	
+	void admission() {
+		System.out.println("Admission done for the student...");
+	}
+	int fee(int money) {
+		int change;
+		if(money>500)change=money-200;
+		else if (money==500)change=money-150;
+		else if (money<500&&money >99)change=money-100;
+		else change=money;
+		
+		if(money<100) {System.out.println("money is not enough ..");}
+		else {admission();System.out.println("collects the fee from "+money+" and returns the change "+change);}
+		
+		return change;
+	}
+	
+	public static void main(String[] args) {
+		new School().fee(502);
+	}
+}

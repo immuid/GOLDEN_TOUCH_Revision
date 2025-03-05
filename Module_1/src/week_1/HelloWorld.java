@@ -1,6 +1,7 @@
 package week_1;
 //verified in GitHub
 
+
 /*comments in java 
  * there are 3 types of comments in java 
  * 	1.SingleLine comment
@@ -21,7 +22,7 @@ package week_1;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+/*public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hellow World...");
 		Scanner scan= new Scanner(System.in);
@@ -31,4 +32,15 @@ public class HelloWorld {
 		System.out.println("Welcome to JAVA Learning  :-> "+name);
 	}
 
+}*/
+
+public class HelloWorld{
+	
+	public static void main(String[] args) {
+		System.out.println("Welcome to basic Programming JAVA..."+"\nEnter your Name here -> ");
+		Scanner scan = new Scanner(System.in);
+		String name=scan.nextLine();
+		scan.close();
+		System.out.println("JAVA PLATFORM WELCOMES YOU ... "+name);
+	}
 }
